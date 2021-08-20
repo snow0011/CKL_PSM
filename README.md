@@ -30,7 +30,7 @@ yarn global add serve
 
 ### 1.3 Preview  
 
-![psm-crop-1](README.assets/psm-crop-1.svg)
+![psm-crop-1](README.assets/CKL_PSM.png)
 
 ## 2. Chunk level PCFG Library
 
@@ -43,12 +43,16 @@ cd backend
 # Install ckl_psm to current python environment
 python setup.py install
 ```
+or install by pip
+```bash
+pip install ckl-psm
+```
 
 ### 2.2 How to use  
 
 ```python
 # Import ckl_psm and make sure you have installed the library
-import ckl_psm as psm
+import ckl_pcfg as psm
 
 # Strength query for given password
 result = psm.check_pwd("123456")
