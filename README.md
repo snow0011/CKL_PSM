@@ -39,6 +39,8 @@ yarn global add serve
 
 ## 2. Chunk level PCFG Library (Interface)
 
+### Introduction
+
 We also offer a CKL_PCFG library for password strength query. We hope that we can provide an interface for developers to conveniently intergrate into current password managers (e.g., LastPass, Dashlane, 1Password).
 
 ### 2.1 How to build  
@@ -73,6 +75,8 @@ print(
 ```
 
 ## 3. Memory pattern recognization code (supplementary)
+
+### Introduction
 
 The folder "pattern_recognization" contains scripts that we use to recognize memory pattern in chunks and passwords. We focus on four type patterns in our paper: `leet pattern`, `syllable pattern`, `keyboard pattern` and `date pattern`. Input the password list and the scripts will output the passwords which meet the specific pattern. Here are details:  
 
