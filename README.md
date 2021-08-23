@@ -34,7 +34,7 @@ yarn global add serve
 
 ## 2. Chunk level PCFG Library
 
-We also offer a chunk level PCFG library for password strength query. We hope this will help password manager create more secure tokens.   
+We also offer a CKL_PCFG library for password strength query. We hope that we can provide an interface for developers to conveniently intergrate into current password managers (e.g., LastPass, Dashlane, 1Password).
 
 ### 2.1 How to build  
 
