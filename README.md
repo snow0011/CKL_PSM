@@ -69,14 +69,14 @@ print(
 
 ## 3. Memory pattern recognization
 
-The folder "pattern_recognization" contains scripts that we use to recognize memory pattern in chunks and passwords. We focus on four type patterns in our paper: `date pattern`, `keyboard pattern`, `leet pattern` and `syllable pattern`. Input the password list and the scripts will output the passwords which meet the specific pattern. Here are details:  
+The folder "pattern_recognization" contains scripts that we use to recognize memory pattern in chunks and passwords. We focus on four type patterns in our paper: `leet pattern`, `syllable pattern`, `keyboard pattern` and `date pattern`. Input the password list and the scripts will output the passwords which meet the specific pattern. Here are details:  
 
 ```text
 pattern_recognization/
-├── date.py         // Date pattern recognization for chunks.
-├── kbd.py          // Detect keyboard patterns in chunks. 
 ├── leet.py         // Leet transformation rule detector. 
 └── syllable.py         // Syllable pattern detector(include English syllable words and Chinese Pinyins).
+├── kbd.py          // Detect keyboard patterns in chunks. 
+├── date.py         // Date pattern recognization for chunks.
 ```
 
 
