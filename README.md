@@ -1,5 +1,5 @@
-# Chunk-level Password Strength Meter and Password Recognization Tools
-## 1. Chunk-level Password Strength Meter based on BPE_PCFG
+# Chunk-level Password Strength Meter
+## 1. Chunk-level Password Strength Meter based on CKL_PCFG
 
 ### 1.1 Requirements  
 
@@ -67,7 +67,7 @@ print(
 
 ```
 
-## 3. Memory pattern recognization
+## 3. Memory pattern recognization code (supplementary)
 
 The folder "pattern_recognization" contains scripts that we use to recognize memory pattern in chunks and passwords. We focus on four type patterns in our paper: `leet pattern`, `syllable pattern`, `keyboard pattern` and `date pattern`. Input the password list and the scripts will output the passwords which meet the specific pattern. Here are details:  
 
