@@ -32,7 +32,7 @@ yarn global add serve
 
 ![psm-crop-1](README.assets/CKL_PSM.png)
 
-## 2. Chunk level PCFG Library
+## 2. Chunk level PCFG Library (Interface)
 
 We also offer a CKL_PCFG library for password strength query. We hope that we can provide an interface for developers to conveniently intergrate into current password managers (e.g., LastPass, Dashlane, 1Password).
 
