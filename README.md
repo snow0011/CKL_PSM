@@ -1,10 +1,10 @@
 # Chunk-level Password Strength Meter
 ## 1. Chunk-level Password Strength Meter based on CKL_PCFG
 
-## Introduction
-### CKL_PSM is a new password strength meter based on the chunk-level PCFG model (CKL_PCFG). Additionaly, CKL_PCFG employs BPE segmentation algorithm to segment passwords first, then apply the segmented passwords as a novel template to build the CKL_PCFG model. Overall, CKL_PCFG achieves state-of-the-art results on various password guessing scenarios. This CKL_PSM can remind users of vulnerable strings in a password.
+### Introduction
+CKL_PSM is a new password strength meter based on the chunk-level PCFG model (CKL_PCFG). Additionaly, CKL_PCFG employs BPE segmentation algorithm to segment passwords first, then apply the segmented passwords as a novel template to build the CKL_PCFG model. Overall, CKL_PCFG achieves state-of-the-art results on various password guessing scenarios. This CKL_PSM can remind users of vulnerable strings in a password.
 
-### For a detailed description ot technical details and experimental results, please refer to our paper: Chunk-level Password Guessing: Towards Modeling Refined Password Composition Representations. 
+For a detailed description ot technical details and experimental results, please refer to our paper: Chunk-level Password Guessing: Towards Modeling Refined Password Composition Representations. 
 
 ### 1.1 Requirements  
 
