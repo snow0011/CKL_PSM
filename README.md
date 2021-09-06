@@ -59,7 +59,7 @@ pip install ckl-psm
 
 ```python
 # Import ckl_psm and make sure you have installed the library
-import ckl_pcfg as psm
+from ckl_psm import ckl_pcfg as psm
 
 # Strength query for given password
 result = psm.check_pwd("123456")
